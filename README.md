@@ -10,8 +10,8 @@ Sentinel is a lightweight Python daemon that monitors your DNS query log in real
 |---|---|---|---|
 | Sentinel Lite | AdGuard Home | ❌ | `sentinel-lite.py` |
 | Sentinel Pro | AdGuard Home | ✅ | `sentinel-pro.py` |
-| Sentinel Lite Pi-hole | Pi-hole v6 | ❌ | `sentinel-lite-pihole.py` |
-| Sentinel Pro Pi-hole | Pi-hole v6 | ✅ | `sentinel-pro-pihole.py` |
+| Sentinel Lite | Pi-hole v6 | ❌ | `sentinel-lite-pihole.py` |
+| Sentinel Pro | Pi-hole v6 | ✅ | `sentinel-pro-pihole.py` |
 
 ## How it works
 
@@ -24,11 +24,12 @@ Sentinel is a lightweight Python daemon that monitors your DNS query log in real
 
 - Python 3.8+
 - AdGuard Home **or** Pi-hole v6 instance
-- VirusTotal API key *(Pro versions only — free tier supported)*
+- VirusTotal API key *(Pro versions only (Free) — free tier supported)*
+- A Debian server (VM, LXC container or Bare metal server)
 
 ## Installation
 
-### 1. Clone the repository
+### 1. Clone the repository on the server
 
 ```bash
 git clone https://github.com/SentinelLabs/sentinel.git
