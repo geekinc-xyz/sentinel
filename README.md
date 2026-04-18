@@ -1,4 +1,4 @@
-<img src="logo.svg" width="300"/>
+<img src="sentinel_logo.svg" width="400"/>
 
 # Sentinel — DNS Threat Intelligence
 
